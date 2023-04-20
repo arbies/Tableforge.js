@@ -1,0 +1,40 @@
+{
+  "name": "tableforge.js",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Arbie Sarkissian",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open --hot --config webpack/webpack.dev.js",
+    "build": "webpack --mode production --config webpack/webpack.prod.js",
+    "lint": "eslint src --ext .ts",
+    "tsc": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbies/Tableforge.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arbies/Tableforge.js/issues"
+  },
+  "homepage": "https://github.com/arbies/Tableforge.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-webpack-plugin": "^4.0.1",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.3",
+    "webpack-merge": "^5.8.0"
+  }
+}
